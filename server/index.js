@@ -12,7 +12,7 @@ const port = 3000;
 const cors = require('cors'); // Import cors
 
 // Connect to MongoDB (replace 'your_database_url' with your actual MongoDB connection string)
-mongoose.connect('mongodb+srv://fyp5620:xu6qwLUFpef1o1hB@fyp.fex0xtr.mongodb.net/FYP', {
+mongoose.connect('mongodburl', {
 // console.log("MongoDB Connected");
 });
 
